@@ -159,7 +159,7 @@ st.set_page_config(page_title="IA: Motor de Inferencia", layout="wide")
 st.title("🧠 Motor de Inferencia Lógica mediante Árboles Semánticos")
 st.caption("Proyecto de Inteligencia Artificial - Formato de Entrega del Motor de Inferencia")
 
-col1, col2 = st.columns()
+col1, col2 = st.columns(2)
 
 with col1:
     st.header("1. Entrada de Texto (KB)")
